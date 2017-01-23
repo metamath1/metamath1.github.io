@@ -1290,15 +1290,19 @@
                         <span class="math-tex">
                             $$ 
                             \definecolor{spin}{RGB}{251,0,29}
+                            \begin{align*} 
                             \color{spin}
-                            \frac{\partial C}{\partial b^{l+1}} =
-                            \sum_{o=0}^{M'-C} \sum_{p=0}^{N'-D} =
+                            \frac{\partial C}{\partial b^{l+1}} 
+                            & \color{spin} =
+                            \sum_{o=0}^{M'-C} \sum_{p=0}^{N'-D}
                             \delta^{l+1}_{op} 
                             \\
                             \color{spin}
-                            \frac{\partial C}{\partial w^{l+1}_{cd}} =
+                            \frac{\partial C}{\partial w^{l+1}_{cd}} 
+                            & \color{spin} =
                             \sum_{o=0}^{M'-C} \sum_{p=0}^{N'-D} 
                             \tilde{a}^{l}_{(o+c)(p+d)} \delta^{l+1}_{op}
+                            \end{align*}
                             $$  
                         </span> 
                     </div>
@@ -1437,7 +1441,6 @@
                         <span class="math-tex">
                             $$ 
                             \delta^{l}_{mn} =
-                            \frac{\partial C}{\partial z^{l}_{mn} } =
                             \sum_{o} \sum_{p} 
                             w^{l+1}_{(\lfloor m/2 \rfloor -o)(\lfloor n/2 \rfloor -p)} \delta^{l+1}_{op}
                             \frac{\partial \tilde{a}^{l}_{\lfloor m/2 \rfloor, \lfloor n/2 \rfloor}}{\partial a^{l}_{mn}}
@@ -1552,8 +1555,8 @@
                 </div>
                 
                 행렬형태로 적으면 간결한 맛은 있지만, 
-                내부적으로 무슨 일이 일어나고 있는지 모르는 사람이 한눈에 알 기가 힘들어진다는 단점이 있습니다. 
-                그래서 본 글에서는 좀 복잡하지만 인덱스형태의 식을 사용하였습니다. 
+                내부적으로 무슨 일이 일어나고 있는지 한눈에 알 기가 힘들어진다는 단점이 있습니다. 
+                그래서 본 글에서는 좀 복잡하지만 인덱스 형태의 식을 고집하였습니다. 
                 단계3의 말미에도 언급하였지만 만약 풀링레이어가 없이 CONV층과 CONV층이 결합된 경우라면 어떻게 될까요? 
                 그럼 식(35)은 식(37)와 같은 간단한 컨벌루션 연산만 남게 됩니다.
                 
@@ -1562,7 +1565,6 @@
                         <span class="math-tex">
                             $$ 
                             \delta^{l}_{mn} =
-                            \frac{\partial C}{\partial z^{l}_{mn} } =
                             \sum_{o} \sum_{p} 
                             \left( w^{l+1}_{(m - o)(n - p)} \delta^{l+1}_{op} \right)
                             \sigma'(z^{l}_{mn})
@@ -1618,9 +1620,11 @@
                             \color{spin}
                             nb(a^{l}_{mn}) \equiv a^{l}_{t \in R_{1} , u \in R_{2}} \\ 
                             \color{spin}
-                            R_{1} = [m-(m\%s), \quad m-(m\%s)+(s-1)] \\ 
+                            \begin{align*} 
+                            R_{1} & = [m-(m\%s), \quad m-(m\%s)+(s-1)] \\ 
                             \color{spin}
-                            R_{2} = [n-(n\%s), \quad n-(n\%s)+(s-1)]
+                            R_{2} & = [n-(n\%s), \quad n-(n\%s)+(s-1)]
+                            \end{align*}
                             $$  
                         </span> 
                     </div>
@@ -1644,15 +1648,21 @@
                         <span class="math-tex">
                             $$ 
                             \definecolor{spin}{RGB}{251,0,29}
+                            \begin{align*} 
                             \color{spin}
-                            \frac{\partial C}{\partial b^{l}} =
-                            \sum_{m=0}^{I-A} \sum_{n=0}^{J-B} =
+                            \frac{\partial C}{\partial b^{l}} 
+                            & \color{spin} =
+                            \color{spin}
+                            \sum_{m=0}^{I-A} \sum_{n=0}^{J-B}
                             \delta^{l}_{mn} 
                             \\
                             \color{spin}
-                            \frac{\partial C}{\partial w^{l}_{ab}} =
+                            \frac{\partial C}{\partial w^{l}_{ab}} 
+                            & \color{spin} =
+                            \color{spin}
                             \sum_{m=0}^{I-A} \sum_{n=0}^{J-B} 
                             \tilde{a}^{l-1}_{(m+a)(n+b)} \delta^{l}_{mn}
+                            \end{align*}
                             $$  
                         </span> 
                     </div>
@@ -1672,15 +1682,20 @@
                 하지만 이 긴 이야기를 세 줄로 정리하면 다음과 같습니다. 
                 
                 <h4>
-                "코스트의 
-                
-                <span class="math-tex">\( \mathbf{w} \)</span>에 대한 편미분이 
+                "코스트의 <br/>
+                <b>
+                [1] <span class="math-tex">\( \mathbf{w} \)</span>에 대한 편미분이 
                 NN에서는 <span class="math-tex">\( \mathbf{a} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 행렬곱으로 계산되나 
-                CNN에서는 <span class="math-tex">\( \mathbf{a} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 코릴레이션으로 계산되고, 
-                
-                <span class="math-tex">\( \mathbf{a} \)</span>에 대한 편미분이 
+                CNN에서는 <span class="math-tex">\( \mathbf{a} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 코릴레이션으로 계산된다.
+                <br/>
+                [2] <span class="math-tex">\( b \)</span>에 대한 편미분이 
+                NN에서는 <span class="math-tex">\( \delta_{i} \)</span>이던 것이
+                CNN에서는 모든 <span class="math-tex">\( \delta_{ij} \)</span>의 합으로 계산된다.
+                <br/>
+                [3] 역전파되는 <span class="math-tex">\( \mathbf{a} \)</span>에 대한 편미분이 
                 NN에서는 <span class="math-tex">\( \mathbf{w} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 행렬곱이던 것이 
                 CNN 에서는 <span class="math-tex">\( \mathbf{w} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 컨벌루션으로 계산된다."
+                </b>
                 </h4>
                 
                 이제 이상의 논의를 일반적인 인덱스를 써서 식 4개로 정리하도록 하겠습니다. 
@@ -1798,6 +1813,9 @@
         <div class="row cnn">
             <div class="col-md-offset-2 col-md-8">
                 <h3>6. 결론 </h3>
+                
+                우리는 CNN의 역전파 수식을 유도하면서 다음과 같은 사실을 알게 되었습니다.
+                
                 <ul>
                     <li>1. CNN에서의 역전파 수식을 인덱스형으로 모두 알 수 있다.</li>
                     <li>2. 합성함수의 편미분은 미분하고자 하는 함수를 블록다이어그램으로 표시하고 그 다이어그램을 역으로 거슬러 올라가는 과정으로 모델링될 수 있다.</li>
@@ -1807,8 +1825,14 @@
                 
                 최대한 자세하게 설명하기 위해 내용이 장황해진 것 같은 느낌이 듭니다. 
                 하지만 제 글 쓰기 실력으로는 자세함과 간략함, 명쾌함을 모두 추구할 수 없었습니다. 
-                이 내용을 제대로 이해하는데 3주나 걸렸고 이해한 내용을 문서로 작성하는 데는 2달이 걸렸습니다. 
+                이 내용을 제대로 이해하는데 3주가 걸렸고, 퇴근 후 아이를 재우고 조금씩 문서를 작성하다보니
+                이해한 내용을 문서로 작성하는 데는 2달이 걸렸습니다. 
                 장황한 설명임에도 불구하고 위 내용을 다 이해했다면 딥러닝 라이브러리를 쓰지 않고 python, numpy만으로 CNN을 구현할 수 있게 됩니다. 
+                얼마전 출판된 <a href="http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=99518713">"밑바닥부터 시작하는 딥러닝"</a>에서는 자세한 수식은 생략되었지만
+                행렬 연산의 트릭을 이용해서 CONV층에 대한 구현을 일반적인 FC층과 동일하게 구현하는 놀라운 예제를 볼 수 있습니다.
+                그렇게 구현하는것도 좋겠지만 속도가 좀 느려도 실제로 컨벌루션, 코릴레이션 연산을 명시적으로
+                수행하는 코드를 만들어보는 것도 좋을 것 같습니다. 
+                아마 누군가가 코드를 구현해서 공유해주실것으로 생각합니다.
                 내용 중 오류가 있다면 꼭 연락 주시면 감사하겠습니다. 
             </div>
         </div>
@@ -1829,27 +1853,17 @@
         </div>
         <br/><br/>
         <footer>
-        
+            <div class="row cnn">
+                <div class="col-md-offset-2 col-md-8">
+                    <h3>
+                    작성일 : 2017년 1월 23일
+                    <br/>
+                    작성자 : 조준우, metamath@gmail.com
+                    </h3>
+                </div>
+            </div>
         </footer>
         <!--본문-->
-        
-        <!--
-        <br/><br/><br/><br/><br/><br/><br/>
-        <div style="font-size: 200%;">
-        $$
-        \definecolor{energy}{RGB}{114,0,172}
-        \definecolor{freq}{RGB}{45,177,93}
-        \definecolor{spin}{RGB}{251,0,29}
-        \definecolor{signal}{RGB}{18,110,213}
-        \definecolor{circle}{RGB}{217,86,16}
-        \definecolor{average}{RGB}{203,23,206}
-        \color{energy} X_{\color{freq} k} \color{black} =
-        \color{average} \frac{1}{N} \sum_{n=0}^{N-1}
-        \color{signal}x_n \color{spin}
-        e^{\mathrm{i} \color{circle} 2\pi \color{freq}k \color{average} \frac{n}{N}}
-        $$
-        </div>
-        -->
         
         <!--css, js-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
