@@ -1686,16 +1686,16 @@
                 "코스트의 <br/>
                 <b>
                 [1] <span class="math-tex">\( \mathbf{w} \)</span>에 대한 편미분이 
-                NN에서는 <span class="math-tex">\( \mathbf{a} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 행렬곱으로 계산되나 
-                CNN에서는 <span class="math-tex">\( \mathbf{a} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 코릴레이션으로 계산된다.
+                FC에서는 <span class="math-tex">\( \mathbf{a} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 행렬곱으로 계산되나 
+                CONV에서는 <span class="math-tex">\( \mathbf{a} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 코릴레이션으로 계산된다.
                 <br/>
                 [2] <span class="math-tex">\( b \)</span>에 대한 편미분이 
-                NN에서는 <span class="math-tex">\( \delta_{i} \)</span>이던 것이
-                CNN에서는 모든 <span class="math-tex">\( \delta_{ij} \)</span>의 합으로 계산된다.
+                FC에서는 <span class="math-tex">\( \delta_{i} \)</span>이던 것이
+                CONV에서는 모든 <span class="math-tex">\( \delta_{ij} \)</span>의 합으로 계산된다.
                 <br/>
                 [3] 역전파되는 <span class="math-tex">\( \mathbf{a} \)</span>에 대한 편미분이 
-                NN에서는 <span class="math-tex">\( \mathbf{w} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 행렬곱이던 것이 
-                CNN 에서는 <span class="math-tex">\( \mathbf{w} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 컨벌루션으로 계산된다."
+                FC에서는 <span class="math-tex">\( \mathbf{w} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 행렬곱이던 것이 
+                CONV에서는 <span class="math-tex">\( \mathbf{w} \)</span>와 <span class="math-tex">\( \mathbf{\delta} \)</span>의 컨벌루션으로 계산된다."
                 </b>
                 </h4>
                 
