@@ -1744,9 +1744,9 @@
                             <div class=" col-md-offset-2 col-md-8">
                                 <span class="math-tex">
                                     $$ 
-                                    \frac{  \partial \tilde{a}^{l}_{\lfloor m/s \rfloor \lfloor n/s \rfloor} }{ \partial a^{l}_{mn}  } = 
+                                    \frac{  \partial \tilde{a}^{l}_{\lfloor i/s \rfloor \lfloor j/s \rfloor} }{ \partial a^{l}_{ij}  } = 
                                     \begin{cases}
-                                    1, & \mbox{if }  a^{l+1}_{op} = max( nb(a^{l}_{mn}) ) \\
+                                    1, & \mbox{if }  a^{l}_{ij} = max( nb(a^{l}_{ij}) ) \\
                                     0, & \mbox{ otherwise }
                                     \end{cases} 
                                     $$  
@@ -1759,10 +1759,10 @@
                             <div class=" col-md-offset-2 col-md-8">
                                 <span class="math-tex">
                                     $$ 
-                                    nb(a^{l}_{mn}) \equiv a^{l}_{t \in R_{1} , u \in R_{2}} \\ 
+                                    nb(a^{l}_{ij}) \equiv a^{l}_{t \in R_{1} , u \in R_{2}} \\ 
                                     \begin{align*} 
-                                    R_{1} & = [m-(m\%s), \quad m-(m\%s)+(s-1)] \\ 
-                                    R_{2} & = [n-(n\%s), \quad n-(n\%s)+(s-1)]
+                                    R_{1} & = [i-(i\%s), \quad i-(i\%s)+(s-1)] \\ 
+                                    R_{2} & = [j-(j\%s), \quad j-(j\%s)+(s-1)]
                                     \end{align*}
                                     $$  
                                 </span> 
