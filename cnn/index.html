@@ -1335,8 +1335,11 @@
                             $$ 
                             \delta^{l}_{mn} =
                             \frac{\partial C}{\partial z^{l}_{mn} } =
-                            \sum_{m'} \sum_{n'} \sum_{o} \sum_{p} 
-                            \frac{\partial C}{\partial z^{l+1}_{op}}
+                            \sum_{m'} \sum_{n'} \sum_{o} \sum_{p} \sum_{q} \sum_{r} 
+                            \frac{\partial C}{\partial z_{r}^{l+2}}
+                            \frac{\partial z^{l+2}_{r}}{\partial \tilde{a}^{l+1}_{q}}
+                            \frac{\partial \tilde{a}^{l+1}_{q}}{\partial a^{l+1}_{op}}
+                            \frac{\partial a_{op}^{l+1}}{\partial z^{l+1}_{op}}
                             \frac{\partial z^{l+1}_{op}}{\partial \tilde{a}^{l}_{m'n'}}
                             \frac{\partial \tilde{a}^{l}_{m'n'}}{\partial a^{l}_{mn}}
                             \frac{\partial a^{l}_{mn}}{\partial z^{l}_{mn}}
