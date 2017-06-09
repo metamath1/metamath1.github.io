@@ -1,3 +1,2 @@
 theme: jekyll-theme-cayman
-gems:
-  - jekyll-seo-tag
+exclude: ["ReadMe.md", "Rakefile", "License.md"]
