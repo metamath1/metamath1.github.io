@@ -1,5 +1,3 @@
-# ml-simple-works
-
 [CNN 역전파를 이해하는 가장 쉬운 방법The easiest way to understand CNN backpropagation](https://metamath1.github.io/cnn/index.html)
 =================================
 2017/01/23 - 조준우(metamath@gmail.com)
