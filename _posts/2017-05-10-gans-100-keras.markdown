@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "GANs 기초 - 엔트로피, Keras로 구현한 1D GANs 그리고 Goolfellow 논문 겉핥기"
+date:   2017-05-10 
+---
+이 글에서는 엔트로피에 대해 간단히 알아본 후 Keras를 이용해 1D GANs를 구현한 후 Goodfellow(2014)논문을 훝어본다.
+논문 리뷰는 모든 수식을 포함하여 리뷰하며 초보자도 이해 할 수 있도록 최대한 자세히 정리한다.
+전체 글은 jupyter notebook으로 작성되어 있어서 블로그에 바로 싣지 못하고 아래 nbviewer로 공유한다.
+
+[GANS.ipynb][gans]
+
+[gans]: http://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/GAN/GANs.ipynb 
