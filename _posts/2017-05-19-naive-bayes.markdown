@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "나이브 베이즈 - "밑바닥부터 시작하는 데이터 과학" 보충 설명"
+title:  "나이브 베이즈Naive Bayse - 밑바닥부터 시작하는 데이터 과학Data Science from Scratch 보충 설명"
 date:   2017-05-19 
 ---
 이 문서는 [밑바닥부터 시작하는 데이터과학][grus]의 나이브베이즈 단원에 대한 보충 설명이다. 책의 설명은
