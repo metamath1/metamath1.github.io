@@ -11,4 +11,4 @@ date:   2017-05-12
 
 [퍼셉트론 테스트와 수렴정리][perceptron]
 
-[perceptron]: http://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/GAN/GANs.ipynb 
+[perceptron]: http://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/perceptron/perceptron.ipynb
