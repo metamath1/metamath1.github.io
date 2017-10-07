@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "야코비안Jacobian과 치환적분"
+date:   2017-10-08
+---
+
+야코비안의 의미를 완전히 이해하기 위해 고등학교 치환적분부터 시작해서 다변수 함수에서의 야코비안의 의미까지 정리한다. 
+약간의 다변수 벡터함수에 대한 지식만 있으면 이해할 수 있도록 자세히 풀어적었다.
+
+전체 글은 jupyter notebook으로 작성되어 있어서 아래 링크를 통해 nbviewer로 공유한다.
+
+[야코비안Jacobian과 치환적분][jacobian]
+
+[jacobian]: http://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/sampling/double-integral.ipynb
