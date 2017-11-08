@@ -15,6 +15,6 @@ date:   2017-11-08
  
 전체 글은 jupyter notebook으로 작성되어 있어서 아래 링크를 통해 nbviewer로 공유한다.
 
-[야코비안Jacobian과 치환적분][prml-chap2-1]
+[Pattern Recognition and Machine Learning 2장 정리][prml-chap2-1]
 
 [prml-chap2-1]: http://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/PRML/prml-chap2.ipynb 
