@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Pattern Recognition and Machine Learning - Chap 2-1"
+date:   2017-11-08
+---
+
+머신러닝의 고전 교과서인 Pattern Recognition and Machine Learning 2장 정리노트이다.
+이후 내용을 볼 때 꼭 알아야하는 식(2.117)까지 내용을 정리 하였다.
+
+가우시안 확률분포에서 조건부 확률분포, 사후확률분포, 주변확률분포 등을 다루고 있다.
+
+전반부는 연습문제 풀이와 간단한 수식 유도를 하는 식으로 단편적으로 적었으며
+2.3.1절부터 이야기가 이어지게 하나하나 풀어서 적었다.
+
+ 
+전체 글은 jupyter notebook으로 작성되어 있어서 아래 링크를 통해 nbviewer로 공유한다.
+
+[야코비안Jacobian과 치환적분][prml-chap2-1]
+
+[prml-chap2-1]: http://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/PRML/prml-chap2.ipynb 
