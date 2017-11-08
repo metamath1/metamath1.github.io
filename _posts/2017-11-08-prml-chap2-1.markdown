@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "다변수 가우시안 확률분포multi-variable normal에서 사전확률분포prior, 사후확률분포posterior, 조건부확률분포conditional와 주변확률분포marginal : Pattern Recognition and Machine Learning - Chap 2-1"
+title:  "다변수 가우시안 확률분포<sup>multi-variable normal</sup>에서 사전확률분포<sup>prior</sup>, 사후확률분포<sup>posterior</sup>, 조건부확률분포<sup>conditional</sup>와 주변확률분포<sup>marginal</sup> : Pattern Recognition and Machine Learning - Chap. 2-1"
 date:   2017-11-08
 ---
 
