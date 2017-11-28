@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "나이브 베이즈Naive Bayse - 밑바닥부터 시작하는 데이터 과학Data Science from Scratch 보충 설명"
+title:  "나이브 베이즈Naive Bayse - 베르누이Bernoulli와 다항분포Multinomial 나이브 베이즈 비교"
 date:   2017-05-19 
 ---
 이 문서는 [밑바닥부터 시작하는 데이터과학][grus]의 나이브베이즈 단원에 대한 보충 설명이다. 책의 설명은
@@ -15,7 +15,7 @@ date:   2017-05-19
  
 전체 글은 jupyter notebook으로 작성되어 있어서 블로그에 바로 싣지 못하고 아래 nbviewer로 공유한다.
 
-[나이브 베이즈 - "밑바닥부터 시작하는 데이터 과학" 보충 설명][naive]
+[나이브 베이즈 - 베르누이와 다항분포 나이브 베이즈 비교][naive]
 
 [grus]: http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=84725482
 [naive]: http://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/naive/naive.ipynb 
