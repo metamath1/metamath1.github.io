@@ -27,4 +27,4 @@ date:   2018-06-20
 
 [Symmetric matrix Diagonalization and Singular Value Decomposition][svd]
 
-[svd]: https://github.com/metamath1/ml-simple-works/blob/master/svd/svd.ipynb
+[svd]: http://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/svd/svd.ipynb
