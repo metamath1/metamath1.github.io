@@ -5,11 +5,7 @@ date:   2018-10-11
 ---
 
 
-비션형 계획 문제의 쌍대정리에 대해 정리한 글
-
-서포트벡터머신을 위한 비선형 계획 문제의 쌍대정리[duality]
-
-에 대한 간단한 예제를 2개 정리했다.
+비션형 계획 문제의 쌍대정리에 대해 정리한 글 [서포트벡터머신을 위한 비선형 계획 문제의 쌍대정리][duality]에 대한 간단한 예제를 2개 정리했다.
 
 예제1번은 전역적으로 강한 쌍대정리가 적용되지 않지만 국소적으로 강한 쌍대정리를 적용할 수 있는 경우
 
@@ -19,7 +15,7 @@ date:   2018-10-11
 
 전체 글은 jupyter notebook으로 작성되어 있어서 아래 링크를 통해 nbviewer로 공유한다.
 
-Duality in Non-Linear Programming Examples[dualexam]
+[Duality in Non-Linear Programming Examples][dualexam]
 
 [dualexam]: http://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/svm/duality_example.ipynb
 [duality]: https://metamath1.github.io/2018/10/08/duality.html
