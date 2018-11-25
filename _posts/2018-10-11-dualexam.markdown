@@ -13,7 +13,11 @@ date:   2018-10-11
 
 각 예제는 plotly 그래프로 쌍대함수와 라그랑지안의 관계를 입체적으로 확인할 수 있게 작성하였다.
 
-전체 글은 jupyter notebook으로 작성되어 있어서 아래 링크를 통해 nbviewer로 공유한다.
+전체 글은 $x^2=4$ jupyter notebook으로 작성되어 있어서 아래 링크를 통해 nbviewer로 공유한다.
+
+$$
+x^2=4
+$$
 
 [Duality in Non-Linear Programming Examples][dualexam]
 
