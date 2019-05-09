@@ -12,12 +12,12 @@ CONV층을 직접 미분하는 방법, cs231n에서 설명하는 필터를 적�
 
 CONV층의 미분은 pytorch의 autograd.grad를 사용한 결과와 비교하여 검증하였다.
 
-본 문서를 통해 아래 그림과 같은 트랜스포즈드 컨벌루션 상황이 왜 그렇게 되는지 정확히 이해할 수 있게 될것이다.
+본 문서를 통해 아래 그림과 같은 트랜스포즈드 컨벌루션 상황이 왜 그렇게 되는지 정확히 이해할 수 있게 여러 관계를 설명하였다.
 
-![No padding strides transposed convolution]({{ "/assets/no_padding_strides_transposed.gif" | absolute_url }})
+![Convolution arithmetic: https://github.com/vdumoulin/conv_arithmetic]({{ "/assets/no_padding_strides_transposed.gif" | absolute_url }})
  
 전체 글은 jupyter notebook으로 작성되어 있어서 아래 링크를 통해 nbviewer로 공유한다.
 
-[Convolution and Transposed Convolution in CNN][transconv]
+[Relationship between Convolution and Transposed Convolution in CNN][transconv]
 
 [transconv]: https://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/CNN/transconv_fullconv.ipynb
