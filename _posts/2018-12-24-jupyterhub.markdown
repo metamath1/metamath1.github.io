@@ -2,7 +2,11 @@
 layout: post
 title:  "다중 사용자를 위한 Jupyterhub 설치Install jupyterhub for multi-user"
 date:   2018-12-24
+tags: [jupyterhub, multi-user, ubuntu]
 ---
+
+![]({{ "https://jupyter.org/assets/hublogo.svg" | absolute_url }})
+
 
 ## Jupyterhub 설치하기
 
