@@ -2,7 +2,10 @@
 layout: post
 title:  "서포트벡터머신을 위한 비선형 계획 문제의 쌍대정리Duality in Non-Linear Programming for Support Vector Machine"
 date:   2018-10-08
+tags: [svm, duality, "nonlinear programming", "dual problem"]
 ---
+
+![]({{ "/assets/svm/dual_intro.png" | absolute_url }})
 
 서포트벡터머신(이하 SVM)을 공부하다 보면 마지막 과정에서 쌍대문제라는 것이 등장한다. 
 
