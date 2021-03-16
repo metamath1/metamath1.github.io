@@ -34,10 +34,9 @@ $
 
  이 식의 유도 뿐 아니라 어떤 이유로 오일러-라그랑지 방정식이라는 것이 등장하는지 전체적인 의미를 이해할 수 있게 글을 작성하였다.
 
-전체 글은 jupyter notebook으로 작성되어 있어서 아래 링크를 통해 nbviewer로 공유한다. 아래 링크를 클릭하면 전체 글을 읽을 수 있다. 
+전체 글은 Google Colab으로 작성되어 있어서 아래 링크로 Colab을 통해 공유한다. 아래 링크를 클릭하면 전체 글을 읽을 수 있다. 
 
-[Calculus of Variations][variations]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/metamath1/ml-simple-works/blob/master/PRML/calculus_of_variations.ipynb) 변분법 이해하러 가기
 
-[variations]: https://colab.research.google.com/github/metamath1/ml-simple-works/blob/master/PRML/calculus_of_variations.ipynb
 
 
