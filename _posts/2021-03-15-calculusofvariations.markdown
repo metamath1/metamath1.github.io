@@ -38,6 +38,6 @@ $
 
 [Calculus of Variations][variations]
 
-[variations]: https://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/PRML/calculus-of-variations.ipynb?fbclid=IwAR35UBg_19Ns8T5UT7Q-FfJlWz0PI-tJnWXvN8xHWmtlaogy_uI9kZL8-tw
+[variations]: https://nbviewer.jupyter.org/github/metamath1/ml-simple-works/blob/master/PRML/calculus-of-variations.ipynb
 
 
