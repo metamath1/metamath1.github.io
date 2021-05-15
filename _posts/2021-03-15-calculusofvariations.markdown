@@ -6,6 +6,8 @@ tags: [machine-learning, calculus, variations, PRML]
 use_math: true
 ---
 
+![]({{ "/assets/calcvar/calcvar.png" | absolute_url }})
+
 패턴인식과 머신러닝(Pattern Recognition and Machine Learning, PRML) 식(1.88)에 변분법을 적용하는 내용이 나오는데 변분법에 대해 간략하게 부록 D로 정리할 뿐 별다른 설명이 없어 부록을 읽어도 무슨 소린지 잘 모르게 되어있다. 
 이 블로그가 늘 그렇듯 얉은 지식이나마 최대한 쥐어짜서 합리적인 수준에서 해당 내용을 이해할 수 있도록 변분법에 대한 기초 내용을 정리하였다. 
 
