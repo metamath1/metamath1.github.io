@@ -14,7 +14,7 @@ use_math: true
 PRML에서 부록 D의 식(D.8)까지 내용이 정리되어 있기 때문에 이 글을 읽고나면 식(1.87)에서 안쪽 적분이 $f(\mathbf{x}, y, \dot y)$에 해당하는 항임을 알 수 있고,
 
 $
-\mathbb{E}[L] = \int \underbrace{\int \{y(\mathbf{x}) - t\}^2 \, p(\mathbf{x}, t) \, \text{d}t}_{f(\mathbf{x}, y, \dot y)} \,  \text{d}\mathbf{x} \tag{1.87}
+\mathbb{E}[L] = \int \underbrace{\int \{ y(\mathbf{x}) - t \}^2 \, p(\mathbf{x}, t) \, \text{d}t}_{f(\mathbf{x}, y, \dot y)} \,  \text{d}\mathbf{x} \tag{1.87}
 $
 
 
@@ -31,7 +31,7 @@ $
 
 
 $
-\dfrac{ \delta \mathbb{E}[L]}{\delta y(\mathbf{x})} = 2 \int \{y(\mathbf{x}) - t\} \, p(\mathbf{x}, t) \, \text{d}t = 0 \tag{1.88}
+\dfrac{ \delta \mathbb{E}[L]}{\delta y(\mathbf{x})} = 2 \int \{ y(\mathbf{x}) - t \} \, p(\mathbf{x}, t) \, \text{d}t = 0 \tag{1.88}
 $
 
  이 식의 유도 뿐 아니라 어떤 이유로 오일러-라그랑지 방정식이라는 것이 등장하는지 전체적인 의미를 이해할 수 있게 글을 작성하였다.
