@@ -2,10 +2,10 @@
 layout: post
 title:  "친절한 그래디언트 부스팅A Gentle Introduction to Gradient Boosting"
 date:   2022-04-21
-tags: [machine-learning, gradient, boosting, steepest, descent, gradientboosting, ensemble, boosting, TreeBoost, sklearn, scikit-learn]
+tags: [machine-learning, gradient, boosting, gradientboosting, ensemble, boosting, TreeBoost, sklearn, scikit-learn]
 use_math: true
 ---
-
+ 
 ![]({{ "/assets/gradientboost/linesearch.gif" | absolute_url }})
 
 그래디언트 부스팅은 최근 머신러닝 알고리즘 중에서 가장 각광받는 알고리즘이지만 그 원리를 제대로 
